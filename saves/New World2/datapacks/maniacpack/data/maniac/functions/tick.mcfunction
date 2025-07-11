@@ -1,0 +1,2 @@
+execute as @e[type=minecraft:interaction,tag=settings_show] if data entity @s interaction run function maniac:test2
+execute as @e[type=minecraft:interaction,tag=settings_show] if data entity @s interaction run data remove entity @s interaction
