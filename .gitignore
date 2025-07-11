@@ -1,0 +1,12 @@
+/assets
+/config
+/libraries
+/logs
+servers.dat
+servers.dat.bak
+servers.dat_old
+tlauncher_profiles.json
+usernamecache.json
+usercache.json
+/versions
+launcher_profiles.json

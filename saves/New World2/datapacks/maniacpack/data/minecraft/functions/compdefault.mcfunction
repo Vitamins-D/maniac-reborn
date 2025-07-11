@@ -1,0 +1,9 @@
+scoreboard players set comp1 hackGoal 0
+scoreboard players set comp2 hackGoal 0
+scoreboard players set comp3 hackGoal 0
+scoreboard players set comp4 hackGoal 0
+scoreboard players set comp5 hackGoal 0
+scoreboard players set comp6 hackGoal 0
+scoreboard players set comp7 hackGoal 0
+scoreboard players set comp8 hackGoal 0
+scoreboard players set comp9 hackGoal 0
