@@ -10,3 +10,9 @@ usernamecache.json
 usercache.json
 /versions
 launcher_profiles.json
+/emotes
+/crash-reports
+/profileImage
+/shaderpacks
+*.txt
+.curseclient
