@@ -1,4 +1,5 @@
 scoreboard players set Game game 1
+scoreboard players set playing game 0
 scoreboard players set @a ManiacClass 0
 scoreboard players set @a SurvivorClass 0
 

@@ -31,7 +31,7 @@ execute as @e[tag=to_items_back] run data remove entity @s interaction
 # ===========================================
 # ОБРАБОТКА СТАРТА ИГРЫ
 # ===========================================
-execute if score Game game matches 1 unless entity @a[scores={ManiacClass=0},team=maniac] unless entity @a[scores={SurvivorClass=0},team=survivors] run function maniac:game/play_game
+execute if score Game game matches 1 if score playing game matches 0 unless entity @a[scores={ManiacClass=0},team=maniac] unless entity @a[scores={SurvivorClass=0},team=survivors] run function maniac:game/play_game
 
 
 # ===========================================

@@ -1,3 +1,5 @@
+scoreboard players set playing game 1
+
 title @a[team=maniac] title "Убейте выживших"
 title @a[team=survivors] title "Хакните все компы и убейте маньяка"
 
