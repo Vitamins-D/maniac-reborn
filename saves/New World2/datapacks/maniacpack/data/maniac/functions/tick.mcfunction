@@ -23,3 +23,26 @@ execute as @e[tag=to_abilities] run data remove entity @s interaction
 
 execute as @e[tag=to_items_back] on target run function maniac:menu/maniac_classes/display_class_items_grenny
 execute as @e[tag=to_items_back] run data remove entity @s interaction
+
+
+
+
+
+# ===========================================
+# ОБРАБОТКА СТАРТА ИГРЫ
+# ===========================================
+execute if score Game game matches 1 unless entity @a[scores={ManiacClass=0},team=maniac] unless entity @a[scores={SurvivorClass=0},team=survivors] run function maniac:game/play_game
+
+
+# ===========================================
+# ОБРАБОТКА ПОБЕДЫ
+# ===========================================
+execute if entity @a[team=survivors,gamemode=spectator] unless entity @a[team=survivors,gamemode=!spectator] if score Game game matches 1 run function maniac:game/game_end
+execute if entity @a[team=maniac,gamemode=spectator] unless entity @a[team=maniac,gamemode=!spectator] if score Game game matches 1 run function maniac:game/game_end
+execute if score @r PlayerLevel matches ..0 if score Game game matches 1 run function maniac:game/game_end
+
+
+# ===========================================
+# ОБРАБОТКА СМЕРТИ
+# ===========================================
+execute if entity @a[scores={death=1..}] run function maniac:game/death
