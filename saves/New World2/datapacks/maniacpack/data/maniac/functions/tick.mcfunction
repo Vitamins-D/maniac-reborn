@@ -12,14 +12,14 @@ execute as @e[tag=select_class] on target run tellraw @s "Вы выбрали Б
 execute as @e[tag=select_class] run data remove entity @s interaction
 
 
-execute as @e[tag=to_items] on target run function maniac:menu/display_class_items
+execute as @e[tag=to_items] on target run function maniac:menu/maniac_classes/display_class_items_grenny
 execute as @e[tag=to_items] run data remove entity @s interaction
 
-execute as @e[tag=to_main] on target run function maniac:menu/display_class_main
+execute as @e[tag=to_main] on target run function maniac:menu/maniac_classes/display_class_main_grenny
 execute as @e[tag=to_main] run data remove entity @s interaction
 
-execute as @e[tag=to_abilities] on target run function maniac:menu/display_class_abilities
+execute as @e[tag=to_abilities] on target run function maniac:menu/maniac_classes/display_class_abilities_grenny
 execute as @e[tag=to_abilities] run data remove entity @s interaction
 
-execute as @e[tag=to_items_back] on target run function maniac:menu/display_class_items
+execute as @e[tag=to_items_back] on target run function maniac:menu/maniac_classes/display_class_items_grenny
 execute as @e[tag=to_items_back] run data remove entity @s interaction
