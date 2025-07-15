@@ -1,1 +1,1 @@
-execute if entity @a[team=maniac,scores={ManiacClass=12}] if score Генератор Complete matches 1.. run scoreboard players remove Генератор Complete 1
+execute if entity @a[team=maniac,scores={ManiacClass=12}] if score gen hack matches 1.. run scoreboard players remove gen hack 1

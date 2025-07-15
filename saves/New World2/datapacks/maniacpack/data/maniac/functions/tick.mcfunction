@@ -46,3 +46,16 @@ execute if score @r PlayerLevel matches ..0 if score Game game matches 1 run fun
 # ОБРАБОТКА СМЕРТИ
 # ===========================================
 execute if entity @a[scores={death=1..}] run function maniac:game/death
+
+
+# ===========================================
+# ОБРАБОТКА ГЕНЕРАТОРА ФРЕДДИ
+# ===========================================
+execute if entity @a[team=maniac,scores={ManiacClass=12}] run function maniac:classes/freddy/charge_display
+
+
+
+# ===========================================
+# ОБРАБОТКА ВЫДАЧИ КАРТОЧКИ
+# ===========================================
+execute if score Итого Complete >= Game allGoal if score Итого Complete matches ..90 run function maniac:game/complete_comps

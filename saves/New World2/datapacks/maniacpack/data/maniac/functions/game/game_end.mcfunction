@@ -12,7 +12,7 @@ effect clear @a
 stopsound @a
 playsound minecraft:music_disc.ward music @a -378 43 -19 999
 effect give @a minecraft:resistance infinite 255
-scoreboard players reset Генератор Complete
+scoreboard players reset gen hack
 function maniac:classes/freddy/mishkagenclear
 kill @e[type=minecraft:armor_stand,tag=CirclePart]
 scoreboard players set Итого Complete 0
