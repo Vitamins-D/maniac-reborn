@@ -1,5 +1,11 @@
 scoreboard players set playing game 1
 
+effect clear @a
+
+effect give @a minecraft:dolphins_grace infinite 0
+effect give @a minecraft:water_breathing infinite 0
+effect give @a minecraft:saturation infinite 255 true
+
 title @a[team=maniac] title "Убейте выживших"
 title @a[team=survivors] title "Хакните все компы и убейте маньяка"
 
@@ -21,6 +27,7 @@ kill @e[type=minecraft:text_display,tag=hack7Eff]
 kill @e[type=minecraft:text_display,tag=hack8Eff]
 kill @e[type=minecraft:text_display,tag=hack9Eff]
 kill @e[type=minecraft:zombie]
+kill @e[type=maniacweapons:totem]
 
 function maniac:fnaf/fnaf_skulkclear
 function maniac:mansion/mansion_skulkclear
