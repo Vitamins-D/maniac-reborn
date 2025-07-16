@@ -20,9 +20,14 @@ kill @e[type=minecraft:text_display,tag=hack6Eff]
 kill @e[type=minecraft:text_display,tag=hack7Eff]
 kill @e[type=minecraft:text_display,tag=hack8Eff]
 kill @e[type=minecraft:text_display,tag=hack9Eff]
+kill @e[type=minecraft:zombie]
 
 function maniac:fnaf/fnaf_skulkclear
 function maniac:mansion/mansion_skulkclear
 
 function maniac:mansion/mansion_genspawn
 function maniac:fnaf/fnaf_genspawn
+
+execute as @e[type=marker,tag=removeThis] at @s run setblock ~ ~ ~ air
+
+execute if entity @a[team=survivors,scores={SurvivorClass=10}] as @e[type=marker,tag=brewSpawn] at @s run setblock ~ ~ ~ brewing_stand

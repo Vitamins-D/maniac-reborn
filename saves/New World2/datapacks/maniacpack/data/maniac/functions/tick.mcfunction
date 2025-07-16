@@ -25,8 +25,10 @@ execute as @e[tag=to_items_back] on target run function maniac:menu/maniac_class
 execute as @e[tag=to_items_back] run data remove entity @s interaction
 
 
-
-
+# ===========================================
+# УДАЛЕНИЕ ОПЫТА
+# ===========================================
+kill @e[type=experience_orb]
 
 # ===========================================
 # ОБРАБОТКА СТАРТА ИГРЫ
@@ -59,3 +61,21 @@ execute if entity @a[team=maniac,scores={ManiacClass=12}] run function maniac:cl
 # ОБРАБОТКА ВЫДАЧИ КАРТОЧКИ
 # ===========================================
 execute if score Итого Complete >= Game allGoal if score Итого Complete matches ..90 run function maniac:game/complete_comps
+
+
+# ===========================================
+# ОБРАБОТКА КЛАССОВЫХ ПРИКОЛОВ
+# ===========================================
+function maniac:classes/shaman_spirits
+function maniac:classes/freddy/fnafgenremove
+execute if entity @a[team=maniac,scores={ManiacClass=12}] if score gen hack matches ..1 run effect give @a[team=survivors, gamemode=adventure] minecraft:darkness infinite 0
+execute if entity @a[team=maniac,scores={ManiacClass=12}] if score gen hack matches 999.. run effect clear @a[team=survivors, gamemode=adventure] minecraft:darkness
+execute as @a[team=maniac,scores={ManiacClass=9},gamemode=!spectator] at @s run effect give @a[distance=..3,team=survivors,gamemode=!spectator] minecraft:glowing 5 0
+# Чумной Доктор
+execute as @a[nbt={SelectedItem:{id:"minecraft:wooden_sword",tag:{display:{Name:"{\"text\":\"Коса\"}"}}}}] at @s run effect give @a[distance=..5,sort=random,team=!maniac,nbt=!{ActiveEffects:[{"forge:id":"maniac_weapons:plague"}]}] maniacweapons:plague 4 0
+execute as @e[type=zombie,tag=plague_zombie] at @s run effect give @a[team=survivors,gamemode=!spectator,distance=..3] maniacweapons:plague 7 0
+
+execute if score Итого Complete matches 100.. if score @r PlayerLevel matches ..90 run effect give @a[team=maniac,gamemode=!spectator] minecraft:glowing 90 0
+
+# Подсказка алхимику
+execute if entity @a[team=survivors,scores={SurvivorClass=6}] as @e[type=marker,tag=brewSpawn] at @s run particle minecraft:witch ~ ~1 ~ -0.5 0.5 0.5 1 1 force @a[team=survivors,scores={SurvivorClass=6}]

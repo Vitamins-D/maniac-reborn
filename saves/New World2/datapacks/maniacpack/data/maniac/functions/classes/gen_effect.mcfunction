@@ -8,10 +8,21 @@ execute if score Итого Complete matches 3 if entity @a[team=maniac,scores={
 
 tp @a[team=maniac,scores={ManiacClass=8},gamemode=!spectator] @r[team=survivors,gamemode=!spectator]
 
-give @a[scores={SurvivorClass=9},team=survivors,gamemode=!spectator] maniacweapons:adrenalain 1
-
 execute if score Итого Complete = Итого allGoal run give @a[team=survivors,scores={SurvivorClass=7}] cgm:stun_grenade 1
 
 execute if score Итого Complete matches 3 run give @a[team=survivors,scores={SurvivorClass=7}] cgm:stun_grenade 1
 
 execute if entity @a[team=survivors,scores={SurvivorClass=8},gamemode=!spectator] if score Итого hack matches 3 run function maniac:classes/necromancer
+
+# Нарко
+give @a[scores={SurvivorClass=9},team=survivors,gamemode=!spectator] maniacweapons:adrenalain 1
+
+# Учёный
+execute as @a[team=survivors,scores={SurvivorClass=10},gamemode=!spectator,limit=2] run function maniac:classes/scientist
+
+# Алхимик
+loot give @a[team=survivors,scores={SurvivorClass=6},gamemode=!spectator] loot maniac:alchemy
+
+# Чумной Доктор
+execute if score Game map matches 1 if entity @a[team=maniac,scores={ManiacClass=6},gamemode=!spectator] at @e[type=minecraft:marker,sort=random,tag=plagueMansion,limit=1] run function maniac:classes/spawn_zombie
+execute if score Game map matches 4 if entity @a[team=maniac,scores={ManiacClass=6},gamemode=!spectator] at @e[type=minecraft:marker,sort=random,tag=plagueFnaf,limit=1] run function maniac:classes/spawn_zombie

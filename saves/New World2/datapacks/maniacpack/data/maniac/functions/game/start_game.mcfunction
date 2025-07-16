@@ -27,6 +27,7 @@ execute unless entity @a[scores={maniacPick=0}] run scoreboard players set @a ma
 
 effect give @a minecraft:dolphins_grace infinite 0
 effect give @a minecraft:water_breathing infinite 0
+effect give @a minecraft:saturation infinite 255 true
 
 execute if score Game rndClass matches 1 run setblock -360 43 -90 minecraft:redstone_block destroy
 

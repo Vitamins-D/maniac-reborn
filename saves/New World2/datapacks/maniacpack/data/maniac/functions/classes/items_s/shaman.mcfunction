@@ -1,0 +1,1 @@
+give @a[scores={SurvivorClass=1},team=survivors] maniacweapons:totem_spawn_egg 2

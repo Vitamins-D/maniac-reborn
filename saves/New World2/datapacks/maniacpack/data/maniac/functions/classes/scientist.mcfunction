@@ -1,0 +1,9 @@
+scoreboard players add Progress1 hack 50
+scoreboard players add Progress2 hack 50
+scoreboard players add Progress3 hack 50
+scoreboard players add Progress4 hack 50
+scoreboard players add Progress5 hack 50
+scoreboard players add Progress6 hack 50
+scoreboard players add Progress7 hack 50
+scoreboard players add Progress8 hack 50
+scoreboard players add Progress9 hack 50
