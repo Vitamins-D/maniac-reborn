@@ -6,11 +6,11 @@ execute as @e[tag=class_marker_alchemist] at @s run summon minecraft:text_displa
 
 # Предмет 2
 execute as @e[tag=class_marker_alchemist] at @s run summon minecraft:item_display ~ ~-0.5 ~-1.7 {Tags:["class_display_alchemist","items_page_alchemist"],item:{id:"minecraft:splash_potion",Count:1b},transformation:{scale:[1.0f,0.1f,0.1f]},Rotation:[270f,0f]}
-execute as @e[tag=class_marker_alchemist] at @s run summon minecraft:text_display ~ ~-0.9 ~0.2 {Tags:["class_display_alchemist","items_page_alchemist"],text:'{"text":"5 взрывных зелья воды\\n\\nДля защиты","color":"white"}',Rotation:[90f,0f],shadow:1b,background:0b}
+execute as @e[tag=class_marker_alchemist] at @s run summon minecraft:text_display ~ ~-0.9 ~0.2 {Tags:["class_display_alchemist","items_page_alchemist"],text:'{"text":"5 взрывных зелья воды\\nдля варки","color":"white"}',Rotation:[90f,0f],shadow:1b,background:0b}
 
 # Предмет 3
 execute as @e[tag=class_marker_alchemist] at @s run summon minecraft:item_display ~ ~-1.7 ~-1.7 {Tags:["class_display_alchemist","items_page_alchemist"],item:{id:"minecraft:blaze_powder",Count:1b},transformation:{scale:[0.0f,0.1f,0.1f]},Rotation:[270f,0f]}
-execute as @e[tag=class_marker_alchemist] at @s run summon minecraft:text_display ~ ~-2.1 ~0.2 {Tags:["class_display_alchemist","items_page_alchemist"],text:'{"text":"Ингредиенты\\n\\nДля варки зелий","color":"white"}',Rotation:[90f,0f],shadow:1b,background:0b}
+execute as @e[tag=class_marker_alchemist] at @s run summon minecraft:text_display ~ ~-2.4 ~0.2 {Tags:["class_display_alchemist","items_page_alchemist"],text:'{"text":"3 случайных\\nингредиента\\nдля варки зелий\\n+ огненный порошок","color":"white"}',Rotation:[90f,0f],shadow:1b,background:0b}
 
 # Кнопка "< Назад"
 execute as @e[tag=class_marker_alchemist] at @s run summon minecraft:text_display ~ ~-3 ~-1.7 {Tags:["class_display_alchemist","items_page_alchemist"],text:'{"text":"< Назад","color":"yellow"}',Rotation:[90f,0f],shadow:1b,background:0b}

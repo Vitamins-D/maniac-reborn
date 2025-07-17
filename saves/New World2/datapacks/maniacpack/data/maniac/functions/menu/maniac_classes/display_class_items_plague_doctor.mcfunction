@@ -10,7 +10,7 @@ execute as @e[tag=class_marker_plague_doctor] at @s run summon minecraft:text_di
 
 # Предмет 2
 execute as @e[tag=class_marker_plague_doctor] at @s run summon minecraft:item_display ~ ~-1.7 ~-1.5 {Tags:["class_display_plague_doctor","items_page_plague_doctor"],item:{id:"minecraft:leather_chestplate",Count:1b},transformation:{scale:[0.5f,0.5f,0.1f]},Rotation:[270f,0f]}
-execute as @e[tag=class_marker_plague_doctor] at @s run summon minecraft:text_display ~ ~-1.9 ~0.3 {Tags:["class_display_plague_doctor","items_page_plague_doctor"],text:'{"text":"кожанная броня\\n6 брони","color":"white"}',Rotation:[90f,0f],shadow:1b,background:0b}
+execute as @e[tag=class_marker_plague_doctor] at @s run summon minecraft:text_display ~ ~-1.9 ~0.3 {Tags:["class_display_plague_doctor","items_page_plague_doctor"],text:'{"text":"Кожанная броня\\n6 брони","color":"white"}',Rotation:[90f,0f],shadow:1b,background:0b}
 
 # Кнопка "< Назад"
 execute as @e[tag=class_marker_plague_doctor] at @s run summon minecraft:text_display ~ ~-3 ~-1.7 {Tags:["class_display_plague_doctor","items_page_plague_doctor"],text:'{"text":"< Назад","color":"yellow"}',Rotation:[90f,0f],shadow:1b,background:0b}

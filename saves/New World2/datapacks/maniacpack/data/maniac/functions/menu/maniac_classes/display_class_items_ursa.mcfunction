@@ -1,4 +1,4 @@
-kill @e[tag=class_display_ursa]
+ kill @e[tag=class_display_ursa]
 kill @e[tag=class_interaction_ursa]
 
 # Заголовок
@@ -10,7 +10,7 @@ execute as @e[tag=class_marker_ursa] at @s run summon minecraft:text_display ~ ~
 
 # Предмет 2
 execute as @e[tag=class_marker_ursa] at @s run summon minecraft:item_display ~ ~-1.7 ~-1.5 {Tags:["class_display_ursa","items_page_ursa"],item:{id:"minecraft:leather_chestplate",Count:1b},transformation:{scale:[0.5f,0.5f,0.1f]},Rotation:[270f,0f]}
-execute as @e[tag=class_marker_ursa] at @s run summon minecraft:text_display ~ ~-2.1 ~0.3 {Tags:["class_display_ursa","items_page_ursa"],text:'{"text":"Кожанный нагрудник\\n\\n6 брони","color":"white"}',Rotation:[90f,0f],shadow:1b,background:0b}
+execute as @e[tag=class_marker_ursa] at @s run summon minecraft:text_display ~ ~-2.1 ~0.3 {Tags:["class_display_ursa","items_page_ursa"],text:'{"text":"Кожанная броня\\n6 брони","color":"white"}',Rotation:[90f,0f],shadow:1b,background:0b}
 
 # Кнопка "< Назад"
 execute as @e[tag=class_marker_ursa] at @s run summon minecraft:text_display ~ ~-3 ~-1.7 {Tags:["class_display_ursa","items_page_ursa"],text:'{"text":"< Назад","color":"yellow"}',Rotation:[90f,0f],shadow:1b,background:0b}

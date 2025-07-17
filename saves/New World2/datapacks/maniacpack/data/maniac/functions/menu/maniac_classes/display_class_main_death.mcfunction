@@ -5,7 +5,7 @@ kill @e[tag=class_interaction_death]
 execute as @e[tag=class_marker_death] at @s run summon minecraft:text_display ~ ~-0.5 ~ {Tags:["class_display_death","main_page_death"],text:'{"text":"Смерть","color":"gold","bold":true}',Rotation:[90f,0f],shadow:1b,background:0b,transformation:{scale:[1.5f,1.5f,1f]}}
 
 # Описание класса
-execute as @e[tag=class_marker_death] at @s run summon minecraft:text_display ~ ~-1.5 ~ {Tags:["class_display_death","main_page_death"],text:'{"text":"Добрая знакомая из легенд\\nпришла по ваши души","color":"white"}',Rotation:[90f,0f],shadow:1b,background:0b}
+execute as @e[tag=class_marker_death] at @s run summon minecraft:text_display ~ ~-1.5 ~ {Tags:["class_display_death","main_page_death"],text:'{"text":"Memento mori","color":"white"}',Rotation:[90f,0f],shadow:1b,background:0b}
 
 # Кнопка "Выбрать класс"
 execute as @e[tag=class_marker_death] at @s run summon minecraft:text_display ~ ~-2.3 ~ {Tags:["class_display_death","main_page_death"],text:'{"text":"[Выбрать класс]","color":"green","bold":true}',Rotation:[90f,0f],shadow:1b,background:0b}

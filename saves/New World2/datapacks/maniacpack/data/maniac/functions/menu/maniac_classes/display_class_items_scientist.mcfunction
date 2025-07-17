@@ -6,7 +6,7 @@ execute as @e[tag=class_marker_scientist] at @s run summon minecraft:text_displa
 
 # Предмет 1
 execute as @e[tag=class_marker_scientist] at @s run summon minecraft:item_display ~ ~-0.9 ~-1.5 {Tags:["class_display_scientist","items_page_scientist"],item:{id:"maniacweapons:test",Count:1b},transformation:{scale:[0.5f,0.5f,0.1f]},Rotation:[270f,0f]}
-execute as @e[tag=class_marker_scientist] at @s run summon minecraft:text_display ~ ~-1.4 ~0.4 {Tags:["class_display_scientist","items_page_scientist"],text:'{"text":"Квантовый телепорт\\nПомогает меняться\\nместами с другими\\nигроками","color":"white"}',Rotation:[90f,0f],shadow:1b,background:0b}
+execute as @e[tag=class_marker_scientist] at @s run summon minecraft:text_display ~ ~-1.7 ~0.4 {Tags:["class_display_scientist","items_page_scientist"],text:'{"text":"Квантовый телепорт\\nПомогает меняться\\nместами с другими\\nигроками и получает\\nневидимость\\nна 7 сек.","color":"white"}',Rotation:[90f,0f],shadow:1b,background:0b}
 
 # Кнопка "< Назад"
 execute as @e[tag=class_marker_scientist] at @s run summon minecraft:text_display ~ ~-3 ~-1.7 {Tags:["class_display_scientist","items_page_scientist"],text:'{"text":"< Назад","color":"yellow"}',Rotation:[90f,0f],shadow:1b,background:0b}

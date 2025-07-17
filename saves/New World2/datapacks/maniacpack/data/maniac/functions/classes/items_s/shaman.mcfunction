@@ -1,2 +1,2 @@
-give @a[scores={SurvivorClass=1},team=survivors] maniacweapons:totem_spawn_egg{display:{Name:'{"text":"Тотем Защиты","color":"yellow","bold":true,"italic":false}'}} 2
+give @a[scores={SurvivorClass=1},team=survivors] maniacweapons:totem_spawn_egg{display:{Name:'{"text":"Тотем Защиты","color":"yellow","bold":true,"italic":false}'},CanPlaceOn:["#minecraft:all"]} 2
 give @a[scores={SurvivorClass=1},team=survivors] maniacweapons:soul 1

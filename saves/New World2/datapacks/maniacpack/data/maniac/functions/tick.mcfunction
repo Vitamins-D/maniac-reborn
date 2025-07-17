@@ -1,4 +1,4 @@
-execute as @e[type=minecraft:interaction,tag=start_game_show] if data entity @s interaction run function maniac:start_game
+execute as @e[type=minecraft:interaction,tag=start_game_show] if data entity @s interaction run function maniac:game/start_game
 execute as @e[type=minecraft:interaction,tag=start_game_show] if data entity @s interaction run data remove entity @s interaction
 
 # ===========================================

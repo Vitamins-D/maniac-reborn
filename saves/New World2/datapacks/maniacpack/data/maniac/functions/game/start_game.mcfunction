@@ -29,7 +29,7 @@ effect give @a minecraft:speed infinite 3
 
 execute if score Game rndClass matches 1 run setblock -360 43 -90 minecraft:redstone_block destroy
 
-tp @a[team=survivors] -379 44 27
+tp @a[team=survivors] -379 63 27
 tp @a[team=maniac] -340 44 48
 
 

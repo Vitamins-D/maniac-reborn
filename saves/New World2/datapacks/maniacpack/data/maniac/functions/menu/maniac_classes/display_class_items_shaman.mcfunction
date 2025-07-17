@@ -6,11 +6,11 @@ execute as @e[tag=class_marker_shaman] at @s run summon minecraft:text_display ~
 
 # Предмет 1
 execute as @e[tag=class_marker_shaman] at @s run summon minecraft:item_display ~0.5 ~-1.2 ~-2.0 {Tags:["class_display_shaman","items_page_shaman"],item:{id:"maniacweapons:totem_spawn_egg",Count:1b},transformation:{scale:[0.5f,0.5f,0.1f]},Rotation:[90f,0f]}
-execute as @e[tag=class_marker_shaman] at @s run summon minecraft:text_display ~ ~-0.9 ~0.4 {Tags:["class_display_shaman","items_page_shaman"],text:'{"text":"Призыв тотема\\nПоставьте тотем, что\\nговорит с духами","color":"white"}',Rotation:[90f,0f],shadow:1b,background:0b}
+execute as @e[tag=class_marker_shaman] at @s run summon minecraft:text_display ~ ~-1.2 ~0.4 {Tags:["class_display_shaman","items_page_shaman"],text:'{"text":"Призыв тотема\\nПоставьте тотем,\\nкоторый даёт\\nсопротивление вокруг","color":"white"}',Rotation:[90f,0f],shadow:1b,background:0b}
 
 # Предмет 2
 execute as @e[tag=class_marker_shaman] at @s run summon minecraft:item_display ~ ~-2.3 ~-1.3 {Tags:["class_display_shaman","items_page_shaman"],item:{id:"maniacweapons:soul",Count:1b},transformation:{scale:[0.5f,0.5f,0.1f]},Rotation:[270f,0f]}
-execute as @e[tag=class_marker_shaman] at @s run summon minecraft:text_display ~ ~-2.1 ~0.2 {Tags:["class_display_shaman","items_page_shaman"],text:'{"text":"Душа предка\\nДревняя сила","color":"white"}',Rotation:[90f,0f],shadow:1b,background:0b}
+execute as @e[tag=class_marker_shaman] at @s run summon minecraft:text_display ~ ~-2.1 ~0.2 {Tags:["class_display_shaman","items_page_shaman"],text:'{"text":"Душа предка\\nИсцеляет 8 хп","color":"white"}',Rotation:[90f,0f],shadow:1b,background:0b}
 
 # Кнопка "< Назад"
 execute as @e[tag=class_marker_shaman] at @s run summon minecraft:text_display ~ ~-3 ~-1.7 {Tags:["class_display_shaman","items_page_shaman"],text:'{"text":"< Назад","color":"yellow"}',Rotation:[90f,0f],shadow:1b,background:0b}

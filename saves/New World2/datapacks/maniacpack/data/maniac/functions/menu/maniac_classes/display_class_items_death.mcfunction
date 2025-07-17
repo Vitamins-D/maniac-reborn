@@ -6,7 +6,7 @@ execute as @e[tag=class_marker_death] at @s run summon minecraft:text_display ~ 
 
 # Предмет 1
 execute as @e[tag=class_marker_death] at @s run summon minecraft:item_display ~ ~-0.5 ~-1.5 {Tags:["class_display_death","items_page_death"],item:{id:"maniacweapons:kosa",Count:1b},transformation:{scale:[0.5f,0.5f,0.1f]},Rotation:[270f,0f]}
-execute as @e[tag=class_marker_death] at @s run summon minecraft:text_display ~ ~-0.7 ~0.2 {Tags:["class_display_death","items_page_death"],text:'{"text":"Коса смерти\\n\\n4 урона","color":"white"}',Rotation:[90f,0f],shadow:1b,background:0b}
+execute as @e[tag=class_marker_death] at @s run summon minecraft:text_display ~ ~-0.7 ~0.2 {Tags:["class_display_death","items_page_death"],text:'{"text":"Коса смерти\\n4 урона","color":"white"}',Rotation:[90f,0f],shadow:1b,background:0b}
 
 # Предмет 3
 execute as @e[tag=class_marker_death] at @s run summon minecraft:item_display ~ ~-1.7 ~-1.7 {Tags:["class_display_death","items_page_death"],item:{id:"maniacweapons:death_arm_armor_chestplate",Count:1b},transformation:{scale:[-0.5f,-0.5f,-0.5f]},Rotation:[90f,0f]}

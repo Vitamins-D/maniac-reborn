@@ -5,7 +5,7 @@ kill @e[tag=class_interaction_plague_doctor]
 execute as @e[tag=class_marker_plague_doctor] at @s run summon minecraft:text_display ~ ~-0.5 ~ {Tags:["class_display_plague_doctor","main_page_plague_doctor"],text:'{"text":"Чумной доктор","color":"gold","bold":true}',Rotation:[90f,0f],shadow:1b,background:0b,transformation:{scale:[1.5f,1.5f,1f]}}
 
 # Описание класса
-execute as @e[tag=class_marker_plague_doctor] at @s run summon minecraft:text_display ~ ~-1.5 ~ {Tags:["class_display_plague_doctor","main_page_plague_doctor"],text:'{"text":"Вы опухоль,\\nчто надо истребить","color":"white"}',Rotation:[90f,0f],shadow:1b,background:0b}
+execute as @e[tag=class_marker_plague_doctor] at @s run summon minecraft:text_display ~ ~-1.5 ~ {Tags:["class_display_plague_doctor","main_page_plague_doctor"],text:'{"text":"Мои снадобья дарят\\nлибо жизнь, либо\\nвечный сон","color":"white"}',Rotation:[90f,0f],shadow:1b,background:0b}
 
 # Кнопка "Выбрать класс"
 execute as @e[tag=class_marker_plague_doctor] at @s run summon minecraft:text_display ~ ~-2.3 ~ {Tags:["class_display_plague_doctor","main_page_plague_doctor"],text:'{"text":"[Выбрать класс]","color":"green","bold":true}',Rotation:[90f,0f],shadow:1b,background:0b}

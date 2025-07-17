@@ -10,7 +10,7 @@ execute as @e[tag=class_marker_death] at @s run summon minecraft:text_display ~ 
 
 # Способность 2
 execute as @e[tag=class_marker_death] at @s run summon minecraft:text_display ~ ~-1.6 ~ {Tags:["class_display_death","abilities_page_death"],text:'{"text":"• Судный час","color":"green","bold":true}',Rotation:[90f,0f],shadow:1b,background:0b}
-execute as @e[tag=class_marker_death] at @s run summon minecraft:text_display ~ ~-2.5 ~ {Tags:["class_display_death","abilities_page_death"],text:'{"text":"  Раз в 1.5 минуты можно телепотироваться\\nк случайной жизни","color":"white"}',Rotation:[90f,0f],shadow:1b,background:0b}
+execute as @e[tag=class_marker_death] at @s run summon minecraft:text_display ~ ~-2.5 ~ {Tags:["class_display_death","abilities_page_death"],text:'{"text":"  Раз в 1.5 минуты можно телепотироваться\\nк случайной жертве","color":"white"}',Rotation:[90f,0f],shadow:1b,background:0b}
 
 # Кнопка "< Назад"
 execute as @e[tag=class_marker_death] at @s run summon minecraft:text_display ~ ~-3 ~-2 {Tags:["class_display_death","abilities_page_death"],text:'{"text":"< Назад","color":"yellow"}',Rotation:[90f,0f],shadow:1b,background:0b}
