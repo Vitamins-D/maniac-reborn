@@ -37,4 +37,4 @@ function maniac:fnaf/fnaf_genspawn
 
 execute as @e[type=marker,tag=removeThis] at @s run setblock ~ ~ ~ air
 
-execute if entity @a[team=survivors,scores={SurvivorClass=10}] as @e[type=marker,tag=brewSpawn] at @s run setblock ~ ~ ~ brewing_stand
+execute if entity @a[team=survivors,scores={SurvivorClass=6}] as @e[type=marker,tag=brewSpawn] at @s run setblock ~ ~ ~ brewing_stand

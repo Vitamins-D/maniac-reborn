@@ -243,4 +243,3 @@ execute as @e[tag=to_abilities_death] run data remove entity @s interaction
 
 execute as @e[tag=to_items_back_death] on target run function maniac:menu/maniac_classes/display_class_items_death
 execute as @e[tag=to_items_back_death] run data remove entity @s interaction
-

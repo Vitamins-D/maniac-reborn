@@ -11,3 +11,4 @@ function maniac:classes/items_m/death
 function maniac:classes/items_m/freddy
 function maniac:classes/items_m/plague
 function maniac:classes/items_m/ursa
+function maniac:classes/items_m/cameraman

@@ -3,6 +3,7 @@ execute if entity @a[team=maniac,gamemode=spectator] unless entity @a[team=mania
 execute if score @r PlayerLevel matches ..0 if score Game game matches 1 run title @a title "Маньяк победил!"
 
 scoreboard players set Game game 0
+scoreboard players set playing game 0
 team leave @a
 scoreboard players reset Время
 gamemode adventure @a
