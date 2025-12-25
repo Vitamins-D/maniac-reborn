@@ -59,6 +59,15 @@ execute if score Итого Complete matches 100.. if score @r PlayerLevel match
 # Подсказка алхимику
 execute if entity @a[team=survivors,scores={SurvivorClass=6}] as @e[type=marker,tag=brewSpawn] at @s run particle minecraft:witch ~ ~1 ~ -0.5 0.5 0.5 1 1 force @a[team=survivors,scores={SurvivorClass=6}]
 
+# Закрытие хака компа
+# Проверяем игроков с hackOpened=1
+# Если рядом НЕТ маркера - останавливаем хакинг
+execute as @a[scores={hackOpened=1}] at @s unless entity @e[type=marker,tag=charging_marker,distance=..2.5] run function maniac:hacks/hack_closeqte
+
+# Удаление маркеров зарядки
+scoreboard players remove @e[type=marker,tag=charging_marker] markerLife 1
+kill @e[type=marker,tag=charging_marker,scores={markerLife=..0}]
+
 # ===========================================
 # ОБРАБОТЧИКИ КЛИКОВ ДЛЯ ВСЕХ КЛАССОВ
 # ===========================================

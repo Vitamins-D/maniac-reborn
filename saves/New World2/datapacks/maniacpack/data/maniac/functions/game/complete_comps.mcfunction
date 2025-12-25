@@ -2,3 +2,5 @@ give @a[team=survivors] securitycraft:keycard_lv5{signature: 00000, linked: 1b, 
 scoreboard players set Итого Complete 100
 effect clear @a[team=maniac] minecraft:resistance
 effect clear @a[team=survivors] minecraft:weakness
+
+maniacrev phase 3

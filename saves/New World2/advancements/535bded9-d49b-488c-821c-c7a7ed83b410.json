@@ -3460,7 +3460,8 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:creeper": "2024-10-21 21:49:51 +0200",
-      "minecraft:zombie": "2024-10-21 22:05:44 +0200"
+      "minecraft:zombie": "2024-10-21 22:05:44 +0200",
+      "minecraft:drowned": "2025-12-18 19:12:29 +0200"
     },
     "done": false
   },
@@ -7235,6 +7236,54 @@
   "minecraft:recipes/combat/spectral_arrow": {
     "criteria": {
       "has_glowstone_dust": "2025-07-19 02:10:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/slime_ball": {
+    "criteria": {
+      "has_slime_block": "2025-11-28 00:07:12 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/honey_bottle": {
+    "criteria": {
+      "has_honey_block": "2025-11-28 00:13:45 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/honey_block_slide": {
+    "criteria": {
+      "honey_block_slide": "2025-11-28 00:14:00 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_carpet": {
+    "criteria": {
+      "has_white_wool": "2025-11-30 20:27:17 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_banner": {
+    "criteria": {
+      "has_white_wool": "2025-11-30 20:27:17 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_bed": {
+    "criteria": {
+      "has_white_wool": "2025-11-30 20:27:17 +0200"
+    },
+    "done": true
+  },
+  "spartanweaponry:longsword": {
+    "criteria": {
+      "has_longsword": "2025-12-25 18:48:46 +0200"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/explosive_charge": {
+    "criteria": {
+      "has_gunpowder": "2025-12-25 18:55:48 +0200"
     },
     "done": true
   },

@@ -1,6 +1,8 @@
-execute if entity @a[team=survivors,gamemode=spectator] unless entity @a[team=survivors,gamemode=!spectator] if score Game game matches 1 run title @a title "Маньяк победил!"
-execute if entity @a[team=maniac,gamemode=spectator] unless entity @a[team=maniac,gamemode=!spectator] if score Game game matches 1 run title @a title "Выжившие победили!"
-execute if score @r PlayerLevel matches ..0 if score Game game matches 1 run title @a title "Маньяк победил!"
+execute if entity @a[team=survivors,gamemode=spectator] unless entity @a[team=survivors,gamemode=!spectator] if score Game game matches 1 run function maniac:game/win_maniac
+execute if entity @a[team=maniac,gamemode=spectator] unless entity @a[team=maniac,gamemode=!spectator] if score Game game matches 1 run function maniac:game/win_survivors
+
+maniacrev timer stop 
+maniacrev phase 0
 
 scoreboard players set Game game 0
 scoreboard players set playing game 0
@@ -17,3 +19,5 @@ scoreboard players reset gen hack
 function maniac:classes/freddy/mishkagenclear
 kill @e[type=minecraft:armor_stand,tag=CirclePart]
 scoreboard players set Итого Complete 0
+
+give @a maniacrev:shop_token
