@@ -17,7 +17,6 @@ execute if score Game game matches 1 if score playing game matches 0 unless enti
 # ===========================================
 execute if entity @a[team=survivors,gamemode=spectator] unless entity @a[team=survivors,gamemode=!spectator] if score Game game matches 1 run function maniac:game/game_end
 execute if entity @a[team=maniac,gamemode=spectator] unless entity @a[team=maniac,gamemode=!spectator] if score Game game matches 1 run function maniac:game/game_end
-execute if score @r PlayerLevel matches ..0 if score Game game matches 1 run function maniac:game/game_end
 
 
 # ===========================================
