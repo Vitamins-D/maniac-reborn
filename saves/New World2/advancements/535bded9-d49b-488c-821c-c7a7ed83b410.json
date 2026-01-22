@@ -7287,5 +7287,35 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/jungle_wood": {
+    "criteria": {
+      "has_log": "2026-01-16 16:41:12 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_planks": {
+    "criteria": {
+      "has_logs": "2026-01-16 16:41:12 +0200"
+    },
+    "done": true
+  },
+  "secretdoors:recipes/decorations/secret_horizontal_jungle_log_door": {
+    "criteria": {
+      "has_jungle_log": "2026-01-16 16:41:12 +0200"
+    },
+    "done": true
+  },
+  "secretdoors:recipes/decorations/secret_jungle_log_door": {
+    "criteria": {
+      "has_jungle_log": "2026-01-16 16:41:12 +0200"
+    },
+    "done": true
+  },
+  "secretdoors:recipes/decorations/secret_jungle_log_trapdoor": {
+    "criteria": {
+      "has_jungle_log": "2026-01-16 16:41:12 +0200"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

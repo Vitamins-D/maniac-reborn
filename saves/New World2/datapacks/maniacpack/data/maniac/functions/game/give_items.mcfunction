@@ -5,6 +5,8 @@ function maniac:classes/items_s/shaman
 function maniac:classes/items_s/narko
 function maniac:classes/items_s/scientist
 function maniac:classes/items_s/alchemist
+function maniac:classes/items_s/necromancer
+function maniac:classes/items_s/doctor
 
 
 function maniac:classes/items_m/death
@@ -12,3 +14,5 @@ function maniac:classes/items_m/freddy
 function maniac:classes/items_m/plague
 function maniac:classes/items_m/ursa
 function maniac:classes/items_m/cameraman
+function maniac:classes/items_m/agent
+function maniac:classes/items_m/pudge

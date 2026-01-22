@@ -17,7 +17,11 @@ team join survivors @a[team=!maniac]
 gamemode adventure @a
 clear @a
 
+maniacrev reset_ready
 give @a maniacrev:perk_token
+give @a[team=maniac] maniacrev:maniac_selection
+give @a[team=survivors] maniacrev:survivor_selection
+give @a maniacrev:ready_item
 
 # Компы
 function maniac:hacks/compdefault
@@ -26,6 +30,12 @@ effect clear @a
 stopsound @a
 effect give @a minecraft:regeneration 2 255 true
 
+scoreboard players set @a weapon1 0
+scoreboard players set @a weapon2 0
+scoreboard players set @a weapon3 0
+scoreboard players set @a ManiacClass 0
+scoreboard players set @a SurvivorClass 0
+scoreboard players set Game map 0
 scoreboard players set @a[team=maniac] maniacPick 1
 execute unless entity @a[scores={maniacPick=0}] run scoreboard players set @a maniacPick 0
 
@@ -40,5 +50,6 @@ tp @a[team=maniac] -340 44 48
 
 execute if score Game map matches 4 run effect give @a[team=maniac,scores={ManiacClass=9}] minecraft:slowness infinite 0 true
 
+maniacrev agent_money set @a 0
 maniacrev perks clear @a
-maniacrev perks open @a
+maniacrev votemap

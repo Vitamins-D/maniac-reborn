@@ -1,0 +1,2 @@
+give @p[team=survivors, distance=..8,gamemode=adventure,scores={weapon2=0}] minecraft:iron_axe{display:{Name:"{\"text\":\"Топор Раскольникова\"}"},Enchantments:[{id:"minecraft:sharpness",lvl:1}]} 1
+scoreboard players set @p[team=survivors, distance=..8,gamemode=adventure,scores={weapon2=0}] weapon2 1

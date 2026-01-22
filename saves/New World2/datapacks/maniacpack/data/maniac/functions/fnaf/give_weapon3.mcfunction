@@ -1,0 +1,2 @@
+give @p[team=survivors, distance=..8,gamemode=adventure,scores={weapon3=0}] spartanweaponry:iron_parrying_dagger 2
+scoreboard players set @p[team=survivors, distance=..8,gamemode=adventure,scores={weapon3=0}] weapon3 1

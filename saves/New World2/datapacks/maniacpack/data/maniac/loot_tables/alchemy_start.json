@@ -9,8 +9,8 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:blaze_powder",
-          "weight": 6,
+          "name": "maniacrev:maniac_regen_fragment",
+          "weight": 12,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -23,8 +23,8 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:ghast_tear",
-          "weight": 2,
+          "name": "maniacrev:maniac_strength_fragment",
+          "weight": 20,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -37,8 +37,8 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:sugar",
-          "weight": 6,
+          "name": "maniacrev:maniac_speed_fragment",
+          "weight": 12,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -51,8 +51,8 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:phantom_membrane",
-          "weight": 7,
+          "name": "maniacrev:maniac_slowness_fragment",
+          "weight": 12,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -65,7 +65,35 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:turtle_helmet",
+          "name": "maniacrev:maniac_slow_falling_fragment",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "maniacrev:maniac_weakness_fragment",
+          "weight": 11,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "maniacrev:maniac_healing_fragment",
           "weight": 8,
           "functions": [
             {
@@ -79,8 +107,8 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:fermented_spider_eye",
-          "weight": 9,
+          "name": "maniacrev:maniac_blindness_fragment",
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -91,60 +119,20 @@
             }
           ]
         },
-		{
-		  "type": "minecraft:item",
-		  "name": "minecraft:splash_potion",
-		  "weight": 4,
-		  "functions": [
-			{
-			  "function": "minecraft:set_count",
-			  "count": {
-				"min": 1,
-				"max": 1
-			  }
-			},
-			{
-			  "function": "minecraft:set_potion",
-			  "id": "minecraft:awkward"
-			}
-		  ]
-		},
-		{
-		  "type": "minecraft:item",
-		  "name": "minecraft:glowstone_dust",
-		  "weight": 3,
-		  "functions": [
-			{
-			  "function": "minecraft:set_count",
-			  "count": {
-				"min": 1,
-				"max": 1
-			  }
-			},
-			{
-			  "function": "minecraft:set_potion",
-			  "id": "minecraft:awkward"
-			}
-		  ]
-		},
-		{
-		  "type": "minecraft:item",
-		  "name": "minecraft:lingering_potion",
-		  "weight": 2,
-		  "functions": [
-			{
-			  "function": "minecraft:set_count",
-			  "count": {
-				"min": 1,
-				"max": 1
-			  }
-			},
-			{
-			  "function": "minecraft:set_potion",
-			  "id": "minecraft:strong_slowness"
-			}
-		  ]
-		}
+        {
+          "type": "minecraft:item",
+          "name": "maniacrev:maniac_glowing_fragment",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        }
       ]
     }
   ]

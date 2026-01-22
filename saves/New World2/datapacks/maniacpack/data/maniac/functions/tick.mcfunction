@@ -7,9 +7,9 @@ execute as @e[type=minecraft:interaction,tag=start_game_show] if data entity @s 
 kill @e[type=experience_orb]
 
 # ===========================================
-# ОБРАБОТКА СТАРТА ИГРЫ
+# ОБРАБОТКА СТАРТА ИГРЫ [СТАРОЕ]
 # ===========================================
-execute if score Game game matches 1 if score playing game matches 0 unless entity @a[scores={ManiacClass=0},team=maniac] unless entity @a[scores={SurvivorClass=0},team=survivors] run function maniac:game/play_game
+#execute if score Game game matches 1 if score playing game matches 0 unless entity @a[scores={ManiacClass=0},team=maniac] unless entity @a[scores={SurvivorClass=0},team=survivors] run function maniac:game/play_game
 
 
 # ===========================================
@@ -53,7 +53,7 @@ execute as @e[type=zombie,tag=plague_zombie] at @s run effect give @a[team=survi
 # Смерть
 execute as @a[team=maniac,scores={ManiacClass=10},gamemode=!spectator] at @s run effect give @a[team=survivors,gamemode=!spectator,distance=..7,nbt={Health:[0.0f,9.0f]}] minecraft:glowing 1 0 true
 
-execute if score Итого Complete matches 100.. if score @r PlayerLevel matches ..90 run effect give @a[team=maniac,gamemode=!spectator] minecraft:glowing 90 0
+#execute if score Итого Complete matches 100.. if score @r PlayerLevel matches ..90 run effect give @a[team=maniac,gamemode=!spectator] minecraft:glowing 90 0
 
 # Подсказка алхимику
 execute if entity @a[team=survivors,scores={SurvivorClass=6}] as @e[type=marker,tag=brewSpawn] at @s run particle minecraft:witch ~ ~1 ~ -0.5 0.5 0.5 1 1 force @a[team=survivors,scores={SurvivorClass=6}]

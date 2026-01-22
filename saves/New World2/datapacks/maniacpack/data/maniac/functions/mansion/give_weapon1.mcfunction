@@ -1,0 +1,2 @@
+give @p[team=survivors, distance=..8,gamemode=adventure,scores={weapon1=0}] splash_potion{Potion:"strong_harming", display:{Name:"{\"text\":\"Граната\"}"}} 7
+scoreboard players set @p[team=survivors, distance=..8,gamemode=adventure,scores={weapon1=0}] weapon1 1
