@@ -1,7 +1,8 @@
+spawnpoint @a -378 43 -19 
+
 execute if entity @a[team=survivors,gamemode=spectator] unless entity @a[team=survivors,gamemode=!spectator] if score Game game matches 1 run function maniac:game/win_maniac
 execute if entity @a[team=maniac,gamemode=spectator] unless entity @a[team=maniac,gamemode=!spectator] if score Game game matches 1 run function maniac:game/win_survivors
 
-schedule clear maniac:game/remove_hack_displays
 maniacrev timer stop 
 maniacrev phase 0
 kill @e[tag=removeMe]

@@ -7,4 +7,4 @@ execute if entity @a[team=maniac,scores={ManiacClass=12}] run scoreboard players
 execute if entity @a[team=maniac,scores={ManiacClass=12}] run setblock -329 43 -62 minecraft:redstone_block destroy
 effect give @a[team=maniac,scores={ManiacClass=12}] minecraft:slowness infinite 0
 
-execute if entity @a[team=maniac,scores={ManiacClass=12}] run playsound maniacweapons:hello block @a
+execute if entity @a[team=maniac,scores={ManiacClass=12}] run playsound maniacweapons:hello block @a ~ ~ ~ 100000 1

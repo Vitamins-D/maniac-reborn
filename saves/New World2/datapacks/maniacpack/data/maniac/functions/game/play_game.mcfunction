@@ -48,10 +48,17 @@ execute at @e[type=marker,tag=hackSpawn] run setblock ~ ~ ~ minecraft:stone_pres
 execute as @e[type=marker,tag=removeThis] at @s run setblock ~ ~ ~ air
 
 execute if entity @a[team=survivors,scores={SurvivorClass=6}] as @e[type=marker,tag=brewSpawn] at @s run setblock ~ ~ ~ brewing_stand
-execute if entity @a[team=survivors,scores={SurvivorClass=6}] at @e[type=marker,tag=brewSpawn] run summon block_display ~-0.5 ~ ~-0.5 {Tags:["removeMe"],block_state:{Name:"minecraft:brewing_stand"},Glowing:1b,glow_color_override:11141290}
+#execute if entity @a[team=survivors,scores={SurvivorClass=6}] at @e[type=marker,tag=brewSpawn] run summon block_display ~-0.5 ~ ~-0.5 {Tags:["removeMe"],block_state:{Name:"minecraft:brewing_stand"},Glowing:1b,glow_color_override:11141290}
+execute if entity @a[team=survivors,scores={SurvivorClass=6}] at @e[type=marker,tag=brewSpawn] run summon block_display ~-0.5 ~ ~-0.5 {Tags:["removeMe", "brewDisplay"],block_state:{Name:"minecraft:brewing_stand"},transformation:{scale:[0.0f,0.0f,0.0f]},glow_color_override:11141290}
+testglow @e[type=block_display,tag=brewDisplay] 600 @a[team=survivors,scores={SurvivorClass=6}]
 
-schedule clear maniac:game/remove_hack_displays
-execute at @e[type=marker,tag=hackSpawn] run summon block_display ~-0.5 ~ ~-0.5 {Tags:["removeMe","hackDisplay"],block_state:{Name:"minecraft:stone_pressure_plate"},Glowing:1b,glow_color_override:65280,brightness:{sky:15,block:15},Team:"Computers"}
-schedule function maniac:game/remove_hack_displays 40s
+execute at @e[type=marker,tag=hackSpawn] run summon block_display ~-0.5 ~-0.1 ~-0.5 {Tags:["removeMe","hackDisplay"],block_state:{Name:"minecraft:stone_pressure_plate"},brightness:{sky:15,block:15},Team:"Computers",transformation:{scale:[0.0f,0.0f,0.0f]},glow_color_override:65280}
+testglow @e[type=block_display,tag=hackDisplay] 40 @a[team=survivors]
+
+execute at @e[type=marker,tag=hackSpawn] run summon block_display ~-0.5 ~-0.1 ~-0.5 {Tags:["removeMe","hackDisplayManiac"],block_state:{Name:"minecraft:stone_pressure_plate"},brightness:{sky:15,block:15},Team:"Computers",transformation:{scale:[0.0f,0.0f,0.0f]},glow_color_override:65280}
+testglow @e[type=block_display,tag=hackDisplayManiac] 600 @a[team=maniac]
+
+execute as @a run maniacrev mana set 100
+maniacrev mana regen disable
 
 maniacrev start

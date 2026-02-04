@@ -16,3 +16,5 @@ function maniac:classes/items_m/ursa
 function maniac:classes/items_m/cameraman
 function maniac:classes/items_m/agent
 function maniac:classes/items_m/pudge
+
+give @a[team=maniac,gamemode=adventure] maniacrev:clarity

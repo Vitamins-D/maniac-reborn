@@ -1631,5 +1631,17 @@
     },
     "done": true
   },
+  "spartanweaponry:parrying_dagger": {
+    "criteria": {
+      "has_parrying_dagger": "2026-01-27 00:23:45 +0200"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/small_arrow_quiver": {
+    "criteria": {
+      "has_arrow": "2026-01-30 00:35:11 +0200"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

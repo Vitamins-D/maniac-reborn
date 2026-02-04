@@ -5551,5 +5551,83 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/dried_kelp_from_smelting": {
+    "criteria": {
+      "has_kelp": "2026-01-27 16:32:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
+    "criteria": {
+      "has_kelp": "2026-01-27 16:32:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smoking": {
+    "criteria": {
+      "has_kelp": "2026-01-27 16:32:50 +0200"
+    },
+    "done": true
+  },
+  "secretdoors:recipes/decorations/secret_quartz_block_door": {
+    "criteria": {
+      "has_quartz_block": "2026-01-27 16:56:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_bricks": {
+    "criteria": {
+      "has_quartz_block": "2026-01-27 16:56:02 +0200"
+    },
+    "done": true
+  },
+  "secretdoors:recipes/decorations/secret_quartz_block_trapdoor": {
+    "criteria": {
+      "has_quartz_block": "2026-01-27 16:56:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_pillar_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2026-01-27 16:56:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_stairs_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2026-01-27 16:56:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_quartz": {
+    "criteria": {
+      "has_quartz_block": "2026-01-27 16:56:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_bricks_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2026-01-27 16:56:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_quartz_block_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2026-01-27 16:56:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_slab_from_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2026-01-27 16:56:02 +0200"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/weapon_oil_base": {
+    "criteria": {
+      "has_greaseball": "2026-01-30 00:16:58 +0200"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
