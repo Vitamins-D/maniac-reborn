@@ -4879,6 +4879,18 @@
     },
     "done": true
   },
+  "spartanweaponry:recipes/weapon_oil_base": {
+    "criteria": {
+      "has_greaseball": "2026-01-30 00:15:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/honey_bottle": {
+    "criteria": {
+      "has_honey_block": "2026-01-30 00:18:32 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/white_glazed_terracotta": {
     "criteria": {
       "has_white_terracotta": "2026-01-30 00:49:13 +0200"
@@ -4909,12 +4921,6 @@
     },
     "done": true
   },
-  "spartanweaponry:recipes/weapon_oil_base": {
-    "criteria": {
-      "has_greaseball": "2026-01-30 00:15:23 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/transportation/oak_chest_boat": {
     "criteria": {
       "has_boat": "2026-01-30 00:54:24 +0200"
@@ -4942,12 +4948,6 @@
   "minecraft:recipes/transportation/bamboo_chest_raft": {
     "criteria": {
       "has_boat": "2026-01-30 00:54:24 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/honey_bottle": {
-    "criteria": {
-      "has_honey_block": "2026-01-30 00:18:32 +0200"
     },
     "done": true
   },

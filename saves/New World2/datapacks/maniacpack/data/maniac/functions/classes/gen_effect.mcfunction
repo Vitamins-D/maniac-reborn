@@ -4,7 +4,7 @@ execute if entity @a[team=maniac,scores={ManiacClass=3}] run effect give @a[team
 
 execute if entity @a[team=survivors,scores={SurvivorClass=4},gamemode=!spectator] run effect give @a[team=maniac] minecraft:glowing 10 0
 
-execute if score Итого Complete matches 3 if entity @a[team=maniac,scores={ManiacClass=7},gamemode=!spectator] run effect give @a[team=survivors,gamemode=!spectator] minecraft:nausea 60 255
+#execute if score Итого Complete matches 3 if entity @a[team=maniac,scores={ManiacClass=7},gamemode=!spectator] run effect give @a[team=survivors,gamemode=!spectator] minecraft:nausea 60 255
 
 tp @a[team=maniac,scores={ManiacClass=8},gamemode=!spectator] @r[team=survivors,gamemode=!spectator]
 
