@@ -25,7 +25,7 @@ give @a[team=survivors] maniacrev:survivor_selection
 give @a maniacrev:ready_item
 
 # Компы
-function maniac:hacks/compdefault
+# function maniac:hacks/compdefault
 
 effect clear @a
 stopsound @a
@@ -50,6 +50,8 @@ tp @a[team=maniac] -340 44 48
 
 
 execute if score Game map matches 4 run effect give @a[team=maniac,scores={ManiacClass=9}] minecraft:slowness infinite 0 true
+
+maniacrev computer reset all
 
 maniacrev agent_money set @a 0
 maniacrev perks clear @a
