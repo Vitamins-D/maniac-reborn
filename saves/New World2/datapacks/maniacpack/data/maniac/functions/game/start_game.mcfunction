@@ -4,6 +4,7 @@ scoreboard players set @a ManiacClass 0
 scoreboard players set @a SurvivorClass 0
 scoreboard players set @a hackOpened 0
 maniacrev phase 0
+maniacrev reset class @a
 
 scoreboard players operation Time game = Game timerMax
 execute unless entity @a[scores={maniacPick=0}] run scoreboard players set @a maniacPick 0
