@@ -1,0 +1,1 @@
+setblock -558 130 88 maniacrev:computer

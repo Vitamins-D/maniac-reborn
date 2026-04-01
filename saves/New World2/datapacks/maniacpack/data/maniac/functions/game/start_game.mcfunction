@@ -6,7 +6,8 @@ scoreboard players set @a hackOpened 0
 maniacrev phase 0
 
 scoreboard players operation Time game = Game timerMax
-team join maniac @r[distance=..100,team=!maniac,scores={maniacPick=0}]
+execute unless entity @a[scores={maniacPick=0}] run scoreboard players set @a maniacPick 0
+team join maniac @r[team=!maniac,scores={maniacPick=0}]
 execute if score maniacCount game matches 2.. run team join maniac @r[distance=..100,team=!maniac,scores={maniacPick=0}]
 execute if score maniacCount game matches 3.. run team join maniac @r[distance=..100,team=!maniac,scores={maniacPick=0}]
 scoreboard players set @a rndClass 0
