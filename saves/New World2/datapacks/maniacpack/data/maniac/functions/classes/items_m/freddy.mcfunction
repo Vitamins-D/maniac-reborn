@@ -2,7 +2,7 @@ item replace entity @a[team=maniac,scores={ManiacClass=12}] armor.head with mine
 item replace entity @a[team=maniac,scores={ManiacClass=12}] armor.chest with minecraft:leather_chestplate 1
 item replace entity @a[team=maniac,scores={ManiacClass=12}] armor.legs with minecraft:leather_leggings 1
 item replace entity @a[team=maniac,scores={ManiacClass=12}] armor.feet with minecraft:leather_boots 1
-give @a[team=maniac,scores={ManiacClass=12}] maniacweapons:microphone
+give @a[team=maniac,scores={ManiacClass=12}] maniacrev:microphone
 execute if entity @a[team=maniac,scores={ManiacClass=12}] run scoreboard players set gen hack 500
 execute if entity @a[team=maniac,scores={ManiacClass=12}] run setblock -329 43 -62 minecraft:redstone_block destroy
 effect give @a[team=maniac,scores={ManiacClass=12}] minecraft:slowness infinite 0

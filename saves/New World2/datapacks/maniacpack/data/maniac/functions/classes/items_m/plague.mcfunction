@@ -2,5 +2,5 @@ item replace entity @a[scores={ManiacClass=6},team=maniac] armor.head with minec
 item replace entity @a[scores={ManiacClass=6},team=maniac] armor.chest with minecraft:leather_chestplate{Unbreakable:100,display:{color:1908001}} 1
 item replace entity @a[scores={ManiacClass=6},team=maniac] armor.legs with minecraft:leather_leggings{Unbreakable:100,display:{color:1908001}} 1
 item replace entity @a[scores={ManiacClass=6},team=maniac] armor.feet with minecraft:leather_boots{Unbreakable:100,display:{color:1908001}} 1
-give @a[scores={ManiacClass=6},team=maniac] minecraft:wooden_sword{display: {Name:"{\"text\":\"Коса\"}"}, Unbreakable:100} 1
+give @a[scores={ManiacClass=6},team=maniac]  maniacrev:plague_lantern 1
 effect give @a[scores={ManiacClass=6},team=maniac] minecraft:slowness infinite 0 false

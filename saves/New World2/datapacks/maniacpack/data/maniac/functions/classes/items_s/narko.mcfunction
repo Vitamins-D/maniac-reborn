@@ -1,2 +1,2 @@
-give @a[scores={SurvivorClass=9},team=survivors] maniacweapons:adrenalain 2
-give @a[scores={SurvivorClass=9},team=survivors] maniacweapons:bong 1
+give @a[scores={SurvivorClass=9},team=survivors] maniacrev:syringe 2
+give @a[scores={SurvivorClass=9},team=survivors] maniacrev:bong 1

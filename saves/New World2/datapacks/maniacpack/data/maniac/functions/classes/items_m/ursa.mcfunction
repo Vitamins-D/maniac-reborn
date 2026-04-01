@@ -2,6 +2,5 @@ item replace entity @a[team=maniac,scores={ManiacClass=7}] armor.head with minec
 item replace entity @a[team=maniac,scores={ManiacClass=7}] armor.chest with minecraft:leather_chestplate{display:{Name:'{"text":"Нагрудник Урсы","color":"gold","underlined":true,"bold":true,"italic":false}',Lore:['{"text":"Защита маньяка класса 7","color":"gray","italic":false}'],color:5978386}} 1
 item replace entity @a[team=maniac,scores={ManiacClass=7}] armor.legs with minecraft:leather_leggings{display:{Name:'{"text":"Поножи Урсы","color":"gold","underlined":true,"bold":true,"italic":false}',Lore:['{"text":"Защита маньяка класса 7","color":"gray","italic":false}'],color:5978386}} 1
 item replace entity @a[team=maniac,scores={ManiacClass=7}] armor.feet with minecraft:leather_boots{display:{Name:'{"text":"Ботинки Урсы","color":"gold","underlined":true,"bold":true,"italic":false}',Lore:['{"text":"Защита маньяка класса 7","color":"gray","italic":false}'],color:5978386}} 1
-give @a[team=maniac,scores={ManiacClass=7}] maniacweapons:theswordoffun
-give @a[team=maniac,scores={ManiacClass=7}] maniacweapons:earthshock
-give @a[team=maniac,scores={ManiacClass=7}] maniacweapons:holy_hive
+give @a[team=maniac,scores={ManiacClass=7}] maniacrev:beast_claw
+give @a[team=maniac,scores={ManiacClass=7}] maniacrev:beehive_food

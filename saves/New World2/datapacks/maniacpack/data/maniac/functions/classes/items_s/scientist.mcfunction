@@ -1,1 +1,1 @@
-give @a[scores={SurvivorClass=10},team=survivors] maniacweapons:test 1
+give @a[scores={SurvivorClass=10},team=survivors] maniacrev:nether_swap 1
