@@ -3525,18 +3525,6 @@
     },
     "done": true
   },
-  "immersive_armors:recipes/misc/wooden": {
-    "criteria": {
-      "has_item": "2024-10-23 12:37:14 +0200"
-    },
-    "done": true
-  },
-  "immersive_armors:recipes/misc/divine": {
-    "criteria": {
-      "has_item": "2024-10-23 12:57:46 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/lime_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_lime_dye": "2024-10-23 12:59:32 +0200"
@@ -3651,12 +3639,6 @@
     },
     "done": true
   },
-  "immersive_armors:recipes/misc/robe": {
-    "criteria": {
-      "has_item": "2024-10-23 13:06:36 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/light_gray_banner": {
     "criteria": {
       "has_light_gray_wool": "2024-10-23 13:06:36 +0200"
@@ -3720,18 +3702,6 @@
   "minecraft:recipes/building_blocks/dripstone_block": {
     "criteria": {
       "has_pointed_dripstone": "2024-10-23 14:04:41 +0200"
-    },
-    "done": true
-  },
-  "immersive_armors:recipes/misc/heavy": {
-    "criteria": {
-      "has_item": "2024-10-23 14:08:39 +0200"
-    },
-    "done": true
-  },
-  "immersive_armors:recipes/misc/warrior": {
-    "criteria": {
-      "has_item": "2024-10-23 14:24:12 +0200"
     },
     "done": true
   },
