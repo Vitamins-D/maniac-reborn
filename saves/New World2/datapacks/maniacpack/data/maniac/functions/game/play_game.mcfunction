@@ -35,7 +35,7 @@ kill @e[type=minecraft:text_display,tag=hack8Eff]
 kill @e[type=minecraft:text_display,tag=hack9Eff]
 kill @e[type=minecraft:zombie]
 kill @e[type=minecraft:zombie_villager]
-kill @e[type=maniacweapons:totem]
+maniacrev totem killall
 kill @e[tag=removeMe]
 
 function maniac:fnaf/fnaf_skulkclear
