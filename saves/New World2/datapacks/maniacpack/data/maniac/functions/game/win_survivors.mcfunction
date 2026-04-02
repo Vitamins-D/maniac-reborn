@@ -4,3 +4,4 @@ maniacrev addexp @a[team=survivors] 25
 
 maniacrev addmoney @a[team=maniac] 5
 maniacrev addexp @a[team=maniac] 10
+maniacrev sendstats 0
