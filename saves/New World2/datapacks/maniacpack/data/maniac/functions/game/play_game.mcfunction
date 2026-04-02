@@ -41,7 +41,7 @@ kill @e[tag=removeMe]
 function maniac:fnaf/fnaf_skulkclear
 function maniac:mansion/mansion_skulkclear
 
-execute at @e[type=marker,tag=hackSpawn] run setblock ~ ~ ~ minecraft:stone_pressure_plate
+#execute at @e[type=marker,tag=hackSpawn] run setblock ~ ~ ~ minecraft:stone_pressure_plate
 #function maniac:mansion/mansion_genspawn
 #function maniac:fnaf/fnaf_genspawn
 

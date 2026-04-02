@@ -20,15 +20,15 @@ execute if score Game map matches 1 run summon marker -257 24 -8 {Tags:["markerS
 execute if score Game map matches 1 run summon marker -225 24 2 {Tags:["markerSpawn","plagueMansion"]}
 execute if score Game map matches 1 run summon marker -285 40 -2 {Tags:["markerSpawn","plagueMansion"]}
 
-execute if score Game map matches 1 run summon marker -252 25 -28 {Tags:["hackSpawn"]}
-execute if score Game map matches 1 run summon marker -225 24 25 {Tags:["hackSpawn"]}
-execute if score Game map matches 1 run summon marker -243 31 5 {Tags:["hackSpawn"]}
-execute if score Game map matches 1 run summon marker -265 33 -10 {Tags:["hackSpawn"]}
-execute if score Game map matches 1 run summon marker -208 33 4 {Tags:["hackSpawn"]}
-execute if score Game map matches 1 run summon marker -201 40 -25 {Tags:["hackSpawn"]}
-execute if score Game map matches 1 run summon marker -235 42 -44 {Tags:["hackSpawn"]}
-execute if score Game map matches 1 run summon marker -277 43 -29 {Tags:["hackSpawn"]}
-execute if score Game map matches 1 run summon marker -286 41 16 {Tags:["hackSpawn"]}
+#execute if score Game map matches 1 run summon marker -252 25 -28 {Tags:["hackSpawn"]}
+#execute if score Game map matches 1 run summon marker -225 24 25 {Tags:["hackSpawn"]}
+#execute if score Game map matches 1 run summon marker -243 31 5 {Tags:["hackSpawn"]}
+#execute if score Game map matches 1 run summon marker -265 33 -10 {Tags:["hackSpawn"]}
+#execute if score Game map matches 1 run summon marker -208 33 4 {Tags:["hackSpawn"]}
+#execute if score Game map matches 1 run summon marker -201 40 -25 {Tags:["hackSpawn"]}
+#execute if score Game map matches 1 run summon marker -235 42 -44 {Tags:["hackSpawn"]}
+#execute if score Game map matches 1 run summon marker -277 43 -29 {Tags:["hackSpawn"]}
+#execute if score Game map matches 1 run summon marker -286 41 16 {Tags:["hackSpawn"]}
 
 execute if score Game map matches 1 run summon marker -235 46 3 {Tags:["markerSpawn","weaponMarker"]}
 execute if score Game map matches 1 run summon marker -267 33 -18 {Tags:["markerSpawn","weaponMarker"]}
@@ -49,15 +49,15 @@ execute if score Game map matches 4 run summon marker -473 45 -134 {Tags:["marke
 execute if score Game map matches 4 run summon marker -465 45 -60 {Tags:["markerSpawn","plagueFnaf"]}
 execute if score Game map matches 4 run summon marker -501 45 -88 {Tags:["markerSpawn","plagueFnaf"]}
 
-execute if score Game map matches 4 run summon marker -494 44 19 {Tags:["hackSpawn"]}
-execute if score Game map matches 4 run summon marker -496 45 -31 {Tags:["hackSpawn"]}
-execute if score Game map matches 4 run summon marker -477 44 7 {Tags:["hackSpawn"]}
-execute if score Game map matches 4 run summon marker -483 44 -41 {Tags:["hackSpawn"]}
-execute if score Game map matches 4 run summon marker -456 45 -75 {Tags:["hackSpawn"]}
-execute if score Game map matches 4 run summon marker -479 57 -100 {Tags:["hackSpawn"]}
-execute if score Game map matches 4 run summon marker -510 45 -122 {Tags:["hackSpawn"]}
-execute if score Game map matches 4 run summon marker -523 43 -88 {Tags:["hackSpawn"]}
-execute if score Game map matches 4 run summon marker -461 49 -112 {Tags:["hackSpawn"]}
+#execute if score Game map matches 4 run summon marker -494 44 19 {Tags:["hackSpawn"]}
+#execute if score Game map matches 4 run summon marker -496 45 -31 {Tags:["hackSpawn"]}
+#execute if score Game map matches 4 run summon marker -477 44 7 {Tags:["hackSpawn"]}
+#execute if score Game map matches 4 run summon marker -483 44 -41 {Tags:["hackSpawn"]}
+#execute if score Game map matches 4 run summon marker -456 45 -75 {Tags:["hackSpawn"]}
+#execute if score Game map matches 4 run summon marker -479 57 -100 {Tags:["hackSpawn"]}
+#execute if score Game map matches 4 run summon marker -510 45 -122 {Tags:["hackSpawn"]}
+#execute if score Game map matches 4 run summon marker -523 43 -88 {Tags:["hackSpawn"]}
+#execute if score Game map matches 4 run summon marker -461 49 -112 {Tags:["hackSpawn"]}
 
 execute if score Game map matches 4 run summon marker -521 44 -74 {Tags:["markerSpawn","weaponMarker"]}
 execute if score Game map matches 4 run summon marker -491 45 -111 {Tags:["markerSpawn","weaponMarker"]}
