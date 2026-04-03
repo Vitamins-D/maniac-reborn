@@ -7,3 +7,6 @@ setblock -548 127 30 air
 setblock -510 44 5 air
 setblock -468 57 -84 air
 setblock -502 45 -131 air
+setblock -259 41 -42 air
+setblock -469 57 -84 air
+setblock -559 129 63 air

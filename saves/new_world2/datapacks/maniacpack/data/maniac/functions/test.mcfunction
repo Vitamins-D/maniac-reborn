@@ -1,1 +1,1 @@
-setblock -558 130 88 maniacrev:computer
+item replace entity @a armor.head with minecraft:player_head{SkullOwner:{Id:[I;-1421751438,-1556870683,-1349294152,-1453770092],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTg3ZDFmNjYzZDUzZjhhNjk4MTJkZmQzYzU4YmE3YjJhY2FiMWNkNWIzMzE5MmFhNDgxNzliMWYzZTcyMiJ9fX0="}]}}} 1
