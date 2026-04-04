@@ -28,6 +28,7 @@ clearplaguedata
 maniacrev addiction clear @a
 maniacrev downed reset @a
 maniacrev agent_money set @a 0
+maniacrev bees kill @a
 
 give @a maniacrev:shop_token
 give @a maniacrev:pre_game_ready_item
