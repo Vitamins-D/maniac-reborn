@@ -1,1 +1,1 @@
-execute as @e[type=marker,tag=genMarker,sort=random,limit=1] at @s run setblock ~ ~ ~ maniacrev:generator
+execute as @e[type=marker,tag=genMarker,sort=random,limit=1] if entity @a[team=maniac,scores={ManiacClass=12}] at @s run setblock ~ ~ ~ maniacrev:generator
