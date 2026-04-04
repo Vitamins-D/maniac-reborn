@@ -34,6 +34,11 @@ execute if score Game map matches 1 run summon marker -235 46 3 {Tags:["markerSp
 execute if score Game map matches 1 run summon marker -267 33 -18 {Tags:["markerSpawn","weaponMarker"]}
 execute if score Game map matches 1 run summon marker -233 25 -45 {Tags:["markerSpawn","weaponMarker"]}
 
+execute if score Game map matches 1 run summon marker -201 42 -42 {Tags:["removeThis","genMarker"]}
+execute if score Game map matches 1 run summon marker -266 25 -2 {Tags:["removeThis","genMarker"]}
+execute if score Game map matches 1 run summon marker -204 32 -11 {Tags:["removeThis","genMarker"]}
+execute if score Game map matches 1 run summon marker -259 41 -42 {Tags:["removeThis","genMarker"]}
+
 # FNAF
 execute if score Game map matches 4 run summon marker -523 45 -25 {Tags:["removeThis","brewSpawn"]}
 execute if score Game map matches 4 run summon marker -486 45 -140 {Tags:["removeThis","brewSpawn"]}
@@ -62,3 +67,15 @@ execute if score Game map matches 4 run summon marker -501 45 -88 {Tags:["marker
 execute if score Game map matches 4 run summon marker -521 44 -74 {Tags:["markerSpawn","weaponMarker"]}
 execute if score Game map matches 4 run summon marker -491 45 -111 {Tags:["markerSpawn","weaponMarker"]}
 execute if score Game map matches 4 run summon marker -547 45 -11 {Tags:["markerSpawn","weaponMarker"]}
+
+execute if score Game map matches 4 run summon marker -510 44 5 {Tags:["removeThis","genMarker"]}
+execute if score Game map matches 4 run summon marker -468 57 -84 {Tags:["removeThis","genMarker"]}
+execute if score Game map matches 4 run summon marker -502 45 -131 {Tags:["removeThis","genMarker"]}
+execute if score Game map matches 4 run summon marker -469 57 -84 {Tags:["removeThis","genMarker"]}
+
+# Amogus
+
+execute if score rndGen game matches 1 if score Game map matches 2 run setblock -522 127 29 maniacrev:generator
+execute if score rndGen game matches 2 if score Game map matches 2 run setblock -463 127 93 maniacrev:generator
+execute if score rndGen game matches 3 if score Game map matches 2 run setblock -548 127 30 maniacrev:generator
+execute if score rndGen game matches 4 if score Game map matches 2 run setblock -559 129 63 maniacrev:generator

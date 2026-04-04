@@ -47,6 +47,8 @@ function maniac:mansion/mansion_skulkclear
 
 execute as @e[type=marker,tag=removeThis] at @s run setblock ~ ~ ~ air
 
+function maniac:classes/freddy/mishkagenspawn
+
 execute if entity @a[team=survivors,scores={SurvivorClass=6}] as @e[type=marker,tag=brewSpawn] at @s run setblock ~ ~ ~ brewing_stand
 #execute if entity @a[team=survivors,scores={SurvivorClass=6}] at @e[type=marker,tag=brewSpawn] run summon block_display ~-0.5 ~ ~-0.5 {Tags:["removeMe"],block_state:{Name:"minecraft:brewing_stand"},Glowing:1b,glow_color_override:11141290}
 execute if entity @a[team=survivors,scores={SurvivorClass=6}] at @e[type=marker,tag=brewSpawn] run summon block_display ~-0.5 ~ ~-0.5 {Tags:["removeMe", "brewDisplay"],block_state:{Name:"minecraft:brewing_stand"},transformation:{scale:[0.0f,0.0f,0.0f]},glow_color_override:11141290}
