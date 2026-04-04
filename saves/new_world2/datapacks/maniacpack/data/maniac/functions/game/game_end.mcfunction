@@ -25,6 +25,7 @@ scoreboard players set Итого Complete 0
 maniacrev perks clear @a
 maniacrev set_fleshheap @a 0
 clearplaguedata
+maniacrev addiction clear @a
 maniacrev downed reset @a
 maniacrev agent_money set @a 0
 
