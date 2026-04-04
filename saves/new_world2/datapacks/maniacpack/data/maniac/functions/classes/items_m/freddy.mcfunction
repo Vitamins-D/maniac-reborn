@@ -4,5 +4,3 @@ item replace entity @a[team=maniac,scores={ManiacClass=12}] armor.legs with mine
 item replace entity @a[team=maniac,scores={ManiacClass=12}] armor.feet with minecraft:leather_boots 1
 give @a[team=maniac,scores={ManiacClass=12}] maniacrev:microphone
 effect give @a[team=maniac,scores={ManiacClass=12}] minecraft:slowness infinite 0
-
-execute if entity @a[team=maniac,scores={ManiacClass=12}] run playsound maniacweapons:hello block @a ~ ~ ~ 100000 1

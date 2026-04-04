@@ -1,3 +1,2 @@
 execute if entity @a[team=maniac,scores={ManiacClass=1}] run effect give @a[team=maniac,scores={ManiacClass=1}] minecraft:strength 20 1
 execute if entity @a[team=maniac,scores={ManiacClass=2}] run effect give @a[team=maniac,scores={ManiacClass=2}] minecraft:speed 10 1
-#function maniac:classes/deathbaff

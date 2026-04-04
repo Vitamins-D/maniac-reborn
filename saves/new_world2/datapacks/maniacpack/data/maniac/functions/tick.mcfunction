@@ -31,4 +31,4 @@ execute if entity @a[scores={death=1..}] run function maniac:game/death
 function maniac:classes/shaman_spirits
 
 # Plague
-execute as @e[type=zombie_villager,tag=plague_zombie] at @s run effect give @a[team=survivors,gamemode=!spectator,distance=..3] maniacrev:plague 3 0
+execute as @e[type=zombie_villager,tag=plague_zombie] at @s run effect give @a[team=survivors,gamemode=!spectator,distance=..3] maniacrev:plague 2 0
