@@ -64,3 +64,4 @@ execute as @a run maniacrev mana set 100
 maniacrev mana regen disable
 
 maniacrev start
+maniacrev timer start
