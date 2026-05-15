@@ -12,7 +12,6 @@ team join maniac @r[team=!maniac,scores={maniacPick=0}]
 execute if score maniacCount game matches 2.. run team join maniac @r[distance=..100,team=!maniac,scores={maniacPick=0}]
 execute if score maniacCount game matches 3.. run team join maniac @r[distance=..100,team=!maniac,scores={maniacPick=0}]
 scoreboard players set @a rndClass 0
-function maniac:game/time_set
 setblock -329 43 -79 minecraft:redstone_block destroy
 team join survivors @a[team=!maniac]
 
