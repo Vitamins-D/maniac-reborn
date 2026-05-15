@@ -65,3 +65,4 @@ maniacrev mana regen disable
 
 maniacrev start
 maniacrev timer start
+maniacrev hp_boost
