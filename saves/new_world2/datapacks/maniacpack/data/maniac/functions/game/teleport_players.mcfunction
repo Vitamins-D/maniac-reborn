@@ -6,3 +6,5 @@ execute if score Game map matches 3 run tp @a[team=survivors] -260 73 -184
 execute if score Game map matches 3 run tp @a[team=maniac] -286 72 -159
 execute if score Game map matches 4 run tp @a[team=survivors] -494 44 18
 execute if score Game map matches 4 run tp @a[team=maniac] -468 44 -34
+execute if score Game map matches 5 run tp @a[team=survivors] -260 55 151
+execute if score Game map matches 5 run tp @a[team=maniac] -275 45 127

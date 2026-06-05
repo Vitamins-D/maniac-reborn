@@ -79,3 +79,30 @@ execute if score rndGen game matches 1 if score Game map matches 2 run setblock 
 execute if score rndGen game matches 2 if score Game map matches 2 run setblock -463 127 93 maniacrev:generator
 execute if score rndGen game matches 3 if score Game map matches 2 run setblock -548 127 30 maniacrev:generator
 execute if score rndGen game matches 4 if score Game map matches 2 run setblock -559 129 63 maniacrev:generator
+
+
+
+# TF2
+
+execute if score Game map matches 5 run summon marker -213 51 154 {Tags:["removeThis","brewSpawn"]}
+execute if score Game map matches 5 run summon marker -204 58 133 {Tags:["removeThis","brewSpawn"]}
+execute if score Game map matches 5 run summon marker -281 52 138 {Tags:["removeThis","brewSpawn"]}
+
+execute if score Game map matches 5 run summon marker -241 50 151 {Tags:["markerSpawn","plagueMansion"]}
+execute if score Game map matches 5 run summon marker -274 51 151 {Tags:["markerSpawn","plagueMansion"]}
+execute if score Game map matches 5 run summon marker -273 55 139 {Tags:["markerSpawn","plagueMansion"]}
+execute if score Game map matches 5 run summon marker -285 56 162 {Tags:["markerSpawn","plagueMansion"]}
+execute if score Game map matches 5 run summon marker -273 44 142 {Tags:["markerSpawn","plagueMansion"]}
+execute if score Game map matches 5 run summon marker -209 44 160 {Tags:["markerSpawn","plagueMansion"]}
+execute if score Game map matches 5 run summon marker -208 51 151 {Tags:["markerSpawn","plagueMansion"]}
+execute if score Game map matches 5 run summon marker -209 55 162 {Tags:["markerSpawn","plagueMansion"]}
+execute if score Game map matches 5 run summon marker -197 56 142 {Tags:["markerSpawn","plagueMansion"]}
+
+execute if score Game map matches 5 run summon marker -268 55 115 {Tags:["markerSpawn","weaponMarker"]}
+execute if score Game map matches 5 run summon marker -214 55 187 {Tags:["markerSpawn","weaponMarker"]}
+execute if score Game map matches 5 run summon marker -208 46 174 {Tags:["markerSpawn","weaponMarker"]}
+
+execute if score Game map matches 5 run summon marker -222 55 151 {Tags:["removeThis","genMarker"]}
+execute if score Game map matches 5 run summon marker -200 56 153 {Tags:["removeThis","genMarker"]}
+execute if score Game map matches 5 run summon marker -291 51 135 {Tags:["removeThis","genMarker"]}
+execute if score Game map matches 5 run summon marker -276 51 164 {Tags:["removeThis","genMarker"]}
