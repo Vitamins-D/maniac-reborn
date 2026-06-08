@@ -1,0 +1,2 @@
+give @p[team=survivors, distance=..8,gamemode=adventure,scores={weapon2=0}] spartanweaponry:studded_cestus 2
+scoreboard players set @p[team=survivors, distance=..8,gamemode=adventure,scores={weapon2=0}] weapon2 1
