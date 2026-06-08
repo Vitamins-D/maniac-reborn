@@ -62,6 +62,7 @@ testglow @e[type=block_display,tag=hackDisplayManiac] 600 @a[team=maniac]
 
 execute as @a run maniacrev mana set 100
 maniacrev mana regen disable
+maniacrev dodepovich reset_all @a
 
 maniacrev start
 maniacrev timer start

@@ -41,4 +41,6 @@ give @a[scores={SurvivorClass=8},team=survivors] maniacrev:salt{CanPlaceOn:["min
 
 maniacrev glowing_perks
 
-say ZXC
+# Додепер
+loot give @a[team=survivors,scores={SurvivorClass=13},gamemode=!spectator] loot maniac:dodeper
+loot give @a[team=survivors,scores={SurvivorClass=13},gamemode=!spectator] loot maniac:dodeper
