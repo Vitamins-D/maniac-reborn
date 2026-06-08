@@ -9,7 +9,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:coin_elusiveness",
+          "name": "maniacrev:coin_elusiveness",
           "weight": 10,
           "functions": [
             {
@@ -23,7 +23,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:coin_insight",
+          "name": "maniacrev:coin_insight",
           "weight": 10,
           "functions": [
             {
@@ -37,7 +37,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:coin_shackles",
+          "name": "maniacrev:coin_shackles",
           "weight": 10,
           "functions": [
             {
@@ -51,7 +51,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:coin_health",
+          "name": "maniacrev:coin_health",
           "weight": 10,
           "functions": [
             {
@@ -65,7 +65,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:coin_eagle",
+          "name": "maniacrev:coin_eagle",
           "weight": 10,
           "functions": [
             {
@@ -79,7 +79,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:coin_debt",
+          "name": "maniacrev:coin_debt",
           "weight": 10,
           "functions": [
             {
@@ -93,7 +93,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:coin_reroll",
+          "name": "maniacrev:coin_reroll",
           "weight": 10,
           "functions": [
             {
@@ -107,7 +107,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:coin_fate",
+          "name": "maniacrev:coin_fate",
           "weight": 1,
           "functions": [
             {
