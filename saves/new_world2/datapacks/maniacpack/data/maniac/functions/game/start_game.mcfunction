@@ -56,3 +56,4 @@ maniacrev computer reset all
 maniacrev agent_money set @a 0
 maniacrev perks clear @a
 maniacrev votemap
+maniacrev nightmare clear_all

@@ -30,6 +30,7 @@ maniacrev downed reset @a
 maniacrev agent_money set @a 0
 maniacrev bees kill @a
 maniacrev reset class @a
+maniacrev nightmare clear_all
 
 maniacrev settings
 give @a maniacrev:shop_token
